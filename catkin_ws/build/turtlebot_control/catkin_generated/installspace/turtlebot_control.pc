@@ -1,0 +1,8 @@
+prefix=/home/fregu856/AA203/AA203_project/catkin_ws/install
+
+Name: turtlebot_control
+Description: Description of turtlebot_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/fregu856/AA203/AA203_project/catkin_ws/install/lib 
+Requires: 
