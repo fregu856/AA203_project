@@ -13,7 +13,7 @@ catkin
 Catkin:  
 Create a workspace:  
 http://wiki.ros.org/catkin/Tutorials/create_a_workspace  
-Add "source ~/sim_robot/catkin_ws/devel/setup.bash" to the bottom of ~/.bashrc ($ sudo nano ~/bashrc) for this line to be run everytime you open the terminal (otherwise you have to do it manually).  
+Add "source ~/AA203_project/catkin_ws/devel/setup.bash" to the bottom of ~/.bashrc ($ sudo nano ~/bashrc) for this line to be run everytime you open the terminal (otherwise you have to do it manually).  
 
 Create a package in the workspace:  
 $ cd sim_robot/catkin_ws/src
