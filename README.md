@@ -34,6 +34,8 @@ $ catkin_make
 Simulation in Gazebo:  
 $ cd AA203_project/catkin_ws/src  
 $ git clone https://github.com/StanfordASL/asl_turtlebot.git  
+$ cd AA203_project/catkin_ws  
+$ catkin_make 
 Add "export GAZEBO_MODEL_PATH=~/AA203_project/catkin_ws/src/asl_turtlebot/models" to the bottom of ~/.bashrc ($ sudo nano ~/bashrc) for this line to be run everytime you open the terminal (otherwise you have to do it manually).  
 
 Test the simulation:  
