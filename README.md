@@ -18,27 +18,27 @@ http://wiki.ros.org/catkin/Tutorials/create_a_workspace
 Add "source ~/AA203/AA203_project/catkin_ws/devel/setup.bash" to the bottom of ~/.bashrc ($ sudo nano ~/bashrc) for this line to be run everytime you open the terminal (otherwise you have to do it manually).  
 
 Create a package in the workspace:  
-$ cd ~/AA203/AA203_project/catkin_ws/src  
+$ cd AA203/AA203_project/catkin_ws/src  
 $ catkin_create_pkg turtlebot_control std_msgs roscpp rospy  
-$ cd ~/AA203/AA203_project/catkin_ws  
+$ cd AA203/AA203_project/catkin_ws  
 $ catkin_make   
 
 Create a scripts directory in the package:  
-$ cd ~/AA203/AA203_project/catkin_ws/src/turtlebot_control  
+$ cd AA203/AA203_project/catkin_ws/src/turtlebot_control  
 $ mkdir scripts  
 
 Every script that you write must be made executable:  
 $ chmod a+x script.py    
 You should also build the package:  
-$ cd ~/AA203/AA203_project/catkin_ws  
+$ cd AA203/AA203_project/catkin_ws  
 $ catkin_make  
 
 Simulation in Gazebo:  
-$ cd ~/AA203/AA203_project/catkin_ws/src  
+$ cd AA203/AA203_project/catkin_ws/src  
 $ git clone https://github.com/StanfordASL/asl_turtlebot.git  
-$ cd ~/AA203/AA203_project/catkin_ws    
+$ cd AA203/AA203_project/catkin_ws    
 $ catkin_make  
-Add "export GAZEBO_MODEL_PATH=~/AA203_project/catkin_ws/src/asl_turtlebot/models" to the bottom of ~/.bashrc ($ sudo nano ~/bashrc) for this line to be run everytime you open the terminal (otherwise you have to do it manually).  
+Add "export GAZEBO_MODEL_PATH=~/AA203/AA203_project/catkin_ws/src/asl_turtlebot/models" to the bottom of ~/.bashrc ($ sudo nano ~/bashrc) for this line to be run everytime you open the terminal (otherwise you have to do it manually).  
 
 Test the simulation:  
 $ roslaunch asl_turtlebot turtlebot_sim.launch  
