@@ -16,16 +16,16 @@ http://wiki.ros.org/catkin/Tutorials/create_a_workspace
 Add "source ~/AA203_project/catkin_ws/devel/setup.bash" to the bottom of ~/.bashrc ($ sudo nano ~/bashrc) for this line to be run everytime you open the terminal (otherwise you have to do it manually).  
 
 Create a package in the workspace:  
-$ cd AA203_project/catkin_ws/src
-$ catkin create pkg turtlebot_control std_msgs roscpp rospy
-$ cd AA203_project/catkin_ws
-$ catkin make  
+$ cd AA203_project/catkin_ws/src  
+$ catkin create pkg turtlebot_control std_msgs roscpp rospy  
+$ cd AA203_project/catkin_ws  
+$ catkin make   
 
 Every script that you write must be made executable:  
-$ chmod a+x script.py  
+$ chmod a+x script.py    
 You should also build the package:  
 $ cd AA203_project/catkin_ws  
-$ catkin_make
+$ catkin_make  
 
 Simulation in Gazebo:  
 $ cd AA203_project/catkin_ws/src  
