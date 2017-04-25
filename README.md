@@ -17,7 +17,7 @@ Add "source ~/AA203_project/catkin_ws/devel/setup.bash" to the bottom of ~/.bash
 
 Create a package in the workspace:  
 $ cd AA203_project/catkin_ws/src  
-$ catkin create pkg turtlebot_control std_msgs roscpp rospy  
+$ catkin_create_pkg turtlebot_control std_msgs roscpp rospy  
 $ cd AA203_project/catkin_ws  
 $ catkin make   
 
