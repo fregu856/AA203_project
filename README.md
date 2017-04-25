@@ -50,3 +50,9 @@ Place "test_controller.py" in ~/AA203/AA203_project/catkin_ws/src/turtlebot_cont
 $ roslaunch asl_turtlebot turtlebot_sim.launch  
 $ rosrun turtlebot_control test_controller.py (in another terminal)  
 The robot should now move to the coordinate (1, 1).    
+
+*******
+
+Run the AA274 project code:  
+$ roslaunch asl_turtlebot turtlebot_project_sim.launch  
+
