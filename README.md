@@ -21,6 +21,10 @@ $ catkin_create_pkg turtlebot_control std_msgs roscpp rospy
 $ cd AA203_project/catkin_ws  
 $ catkin_make   
 
+Create a scripts directory in the package:  
+$ cd AA203_project/catkin_ws/src/turtlebot_control  
+$ mkdir scripts  
+
 Every script that you write must be made executable:  
 $ chmod a+x script.py    
 You should also build the package:  
