@@ -54,5 +54,9 @@ The robot should now move to the coordinate (1, 1).
 *******
 
 Run the AA274 project code:  
+Create a directory called "launch" in catkin_ws/src/turtlebot_control  
+Place "AA274_project.launch" in catkin_ws/src/turtlebot_control/launch  
 $ roslaunch asl_turtlebot turtlebot_project_sim.launch  
+$ roslaunch turtlebot_control AA274_project.launch  
+$ rosrun turtlebot_control mission_publisher.py  
 
