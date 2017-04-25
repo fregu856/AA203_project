@@ -1,7 +1,5 @@
 # AA203_project
 
-Test
-
 Below, the directory "AA203_project" is assumed to be placed in a directory called "AA203" in Home.  
 
 Needed:  
