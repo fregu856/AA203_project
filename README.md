@@ -60,3 +60,7 @@ $ roslaunch asl_turtlebot turtlebot_project_sim.launch
 $ roslaunch turtlebot_control AA274_project.launch  
 $ rosrun turtlebot_control mission_publisher.py  
 
+Tele-op:  
+$ roslaunch kobuki_keyop keyop.launch  
+
+
