@@ -63,4 +63,9 @@ $ rosrun turtlebot_control mission_publisher.py
 Tele-op:  
 $ roslaunch kobuki_keyop keyop.launch  
 
+*****
+
+Launch the modified maze (maze3.world) and Gmapping:  
+$ roslaunch asl_turtlebot turtlebot_maze.launch
+
 
